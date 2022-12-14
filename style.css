@@ -1,0 +1,249 @@
+*,
+*::befor,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#_next {
+  isolation: isolate;
+}
+
+body {
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 800px;
+  margin: auto;
+}
+
+.main {
+  min-width: 100%;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 10rem;
+}
+
+.logo {
+  width: 160px;
+}
+
+.button {
+  margin: auto;
+  border-radius: 15px;
+  background-color: white;
+  color: hsl(321deg, 100%, 78%);
+  border: 2px solid hsl(321deg, 100%, 78%);
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: hsl(0deg, 100%, 63%);
+}
+
+.middle {
+  text-align: center;
+}
+
+.freebutton {
+  background-color: hsl(322deg, 100%, 66%);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.freebutton:hover {
+  background-color: hsl(321deg, 100%, 78%);
+}
+
+p {
+  margin-top: 20px;
+  font-size: small;
+}
+
+.mockup {
+  padding-top: 50px;
+  width: 600px;
+  margin: auto;
+}
+
+.whole {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 50px;
+}
+
+.people {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+.community {
+  flex: 1;
+}
+
+.com, .msg {
+  height: 30px;
+}
+
+.grow {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  background-color: hsl(207deg, 100%, 98%);
+}
+
+.gr {
+  width: 20rem;
+}
+
+.sentence {
+  flex: 1;
+}
+
+.flow {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.fl {
+  width: 20rem;
+}
+
+.conversation {
+  flex: 1;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  background-color: hsl(207deg, 100%, 98%);
+}
+
+.user {
+  width: 20rem;
+}
+
+.your {
+  flex: 1;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.footer {
+  min-height: 50vh;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: hsl(192deg, 100%, 9%);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.upper {
+  display: flex;
+}
+
+.huddle {
+  font-size: 2rem;
+}
+
+.mobile, .mail {
+  height: 15px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newsletter {
+  padding-left: 100px;
+}
+
+.subscribe {
+  background-color: hsl(322deg, 100%, 66%);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-color: hsl(321deg, 100%, 78%);
+}/*# sourceMappingURL=style.css.map */
